@@ -1,0 +1,2 @@
+<?jelly escape-by-default='true'?>
+<div>Este plugin obriga o preenchimento de um ticket numérico e observação antes de salvar qualquer Job, mantendo um histórico de auditoria e conformidade com controle Sox. Desenvolvedor responsável: Renato Ubaldo Moreira e Moraes</div>

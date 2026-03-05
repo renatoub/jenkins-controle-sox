@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Group-Id: org.jenkins-ci.plugins
+Short-Name: jenkins-controle-sox
+Long-Name: Controle SOX - Validador de Ticket
+Url: https://github.com/renatoub/jenkins-controle-sox
+Minimum-Java-Version: 1.8
+Plugin-Version: 1.0.0
+Hudson-Version: 2.164.1
+Jenkins-Version: 2.164.1
+Plugin-Developers: Renato:renato:
+Libraries: C:\Users\renat\jenkins_soc\src\main\resources,C:\Users\rena
+ t\jenkins_soc\target\classes
+Resource-Path: C:\Users\renat\jenkins_soc\src\main\webapp
+

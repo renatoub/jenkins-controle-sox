@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='jenkins-controle-sox' version='1.0.0'><l:dependency name='Controle SOX - Validador de Ticket' groupId='org.jenkins-ci.plugins' artifactId='jenkins-controle-sox' version='1.0.0' url='https://github.com/renatoub/jenkins-controle-sox'><l:description>Obriga o preenchimento de ticket númerico e mantém histórico de auditoria para conformidade SOX.</l:description></l:dependency></l:dependencies>

@@ -1,0 +1,11 @@
+io\jenkins\plugins\TicketProperty\ChangeEntry.javadoc
+META-INF\annotations\org.kohsuke.stapler.export.ExportedBean
+io\jenkins\plugins\TicketProperty.stapler
+META-INF\exposed.stapler-beans
+io\jenkins\plugins\TicketProperty\ChangeEntry.stapler
+io\jenkins\plugins\TicketProperty$DescriptorImpl.class
+META-INF\annotations\hudson.Extension.txt
+io\jenkins\plugins\TicketProperty.class
+io\jenkins\plugins\TicketProperty.javadoc
+io\jenkins\plugins\TicketProperty$ChangeEntry.class
+META-INF\annotations\hudson.Extension

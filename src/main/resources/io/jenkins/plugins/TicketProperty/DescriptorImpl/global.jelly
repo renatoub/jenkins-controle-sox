@@ -1,0 +1,29 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:f="/lib/form">
+    <f:section title="Administração do Validador SOX">
+        <f:entry title="URL do Endpoint" field="apiUrl">
+            <f:textbox />
+        </f:entry>
+        <f:entry title="Tipo de Autenticação" field="authType">
+            <f:select />
+        </f:entry>
+        <f:entry title="Header do Token" field="tokenHeader">
+            <f:textbox />
+        </f:entry>
+        <f:entry title="Valor do Token" field="tokenValue">
+            <f:password />
+        </f:entry>
+        <f:entry title="Usuário API" field="apiUser">
+            <f:textbox />
+        </f:entry>
+        <f:entry title="Senha API" field="apiPassword">
+            <f:password />
+        </f:entry>
+        <f:entry title="Comportamento em Falha de Serviço" field="onServiceFail">
+            <f:select />
+        </f:entry>
+        <f:entry title="Comportamento se Ticket não Existe" field="onTicketNotFound">
+            <f:select />
+        </f:entry>
+    </f:section>
+</j:jelly>

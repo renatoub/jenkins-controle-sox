@@ -1,0 +1,32 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:f="/lib/form">
+    <f:section title="Registro SOX">
+        <f:entry title="Número do Ticket" field="ticketNumber">
+            <f:textbox name="ticketNumber" />
+        </f:entry>
+        <f:entry title="Observação" field="observation">
+            <f:textarea name="observation" />
+        </f:entry>
+    </f:section>
+
+    <j:if test="${instance != null and not empty(instance.history)}">
+        <f:section title="Histórico de Alterações">
+            <f:block>
+                <table class="pane" style="width:100%; border: 1px solid #ccc; border-collapse: collapse;">
+                    <tr style="background: #eee; text-align: left;">
+                        <th style="padding: 8px; border: 1px solid #ccc;">Data</th>
+                        <th style="padding: 8px; border: 1px solid #ccc;">Ticket</th>
+                        <th style="padding: 8px; border: 1px solid #ccc;">Observação Final</th>
+                    </tr>
+                    <j:forEach var="entry" items="${instance.history}">
+                        <tr>
+                            <td style="padding: 8px; border: 1px solid #ccc;">${entry.date}</td>
+                            <td style="padding: 8px; border: 1px solid #ccc;">${entry.ticketNumber}</td>
+                            <td style="padding: 8px; border: 1px solid #ccc;">${entry.observation}</td>
+                        </tr>
+                    </j:forEach>
+                </table>
+            </f:block>
+        </f:section>
+    </j:if>
+</j:jelly>
